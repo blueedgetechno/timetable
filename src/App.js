@@ -1,114 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import ReactDOM from 'react-dom';
-import {
-  Link,
-  BrowserRouter,
-  Switch,
-  Route
-} from 'react-router-dom'
-
 import './App.css';
+
+import data from './data.json';
 
 function App() {
   const [section, setSection] = useState(localStorage.getItem("section"))
   const [popup, setPop] = useState(false)
-
-  const data = {
-    "Monday": [{
-        name: "Info. Security",
-        time: "10:00 - 10:50",
-        title: "Information Security and Cryptography (CS 3204)",
-        link: "https://meet.google.com/hrd-pjea-duo"
-      },{
-        name: "Graph Theory",
-        time: "11:00 - 12:50",
-        title: "Graph Theory (CS3224)",
-        link: "https://meet.google.com/iuh-rjdn-qox"
-      },{
-        name: "OS",
-        time: "2:30 - 3:20",
-        title: "Operating Systems (CS3201)",
-        link: "https://meet.google.com/grg-brpu-csj"
-      },{
-        name: "Data Comm.",
-        time: "3:30 - 5:20",
-        title: "Data Communication and Computer Network (CS3202)",
-        link: "#"
-      }
-    ],
-    "Tuesday": [{
-        name: "Information Security and Cryptography",
-        time: "11:00 - 12:50",
-        title: "Information Security and Cryptography (CS 3204)",
-        link: "https://meet.google.com/qrx-uwrr-sza"
-      },{
-        name: "Computer Network Laboratory (Gx)",
-        time: "2:30 - 5:20",
-        title: "Computer Network Laboratory (CS3272) (Gx)",
-        link: "#",
-        sec: "gx"
-      },{
-        name: "Operating Systems Laboratory (Gy)",
-        time: "2:30 - 5:20",
-        title: "Operating Systems Laboratory (CS3271) (Gy)",
-        link: "#",
-        sec: "gy"
-      }
-    ],
-    "Wednesday": [{
-        name: "Software Engineering",
-        time: "9:00 - 10:50",
-        title: "Software Engineering (CS 3203)",
-        link: "https://meet.google.com/pdx-hasf-xht"
-      },{
-        name: "Operating Systems",
-        time: "11:00 - 12:50",
-        title: "Operating Systems (CS3201)",
-        link: "https://meet.google.com/azy-jteb-uak"
-      }
-    ],
-    "Thursday": [{
-        name: "Information Security",
-        time: "11:00 - 11:50",
-        title: "Information Security and Cryptography (CS 3204)",
-        link: "https://meet.google.com/seo-npcj-nba"
-      },{
-        name: "Graph Theory",
-        time: "12:00 - 12:50",
-        title: "Graph Theory (CS3224)",
-        link: "https://meet.google.com/esf-vbro-deb"
-      },{
-        name: "Software Engineering Laboratory",
-        time: "2:30 - 5:20",
-        title: "Software Engineering Laboratory (CS3273)",
-        link: "https://meet.google.com/pdx-hasf-xht"
-      }
-    ],
-    "Friday": [{
-        name: "Software Engineering",
-        time: "10:00 - 10:50",
-        title: "Software Engineering (CS3203)",
-        link: "https://meet.google.com/pdx-hasf-xht"
-      },{
-        name: "Data Comm.",
-        time: "11:00 - 12:50",
-        title: "Data Communication and Computer Network (CS3202)",
-        link: "#"
-      },{
-        name: "Computer Network Laboratory (Gy)",
-        time: "2:30 - 5:20",
-        title: "Computer Network Laboratory (CS3272) (Gy)",
-        link: "#",
-        sec: "gy"
-      },{
-        name: "Operating Systems Laboratory (Gx)",
-        time: "2:30 - 5:20",
-        title: "Operating Systems Laboratory (CS3271) (Gx)",
-        link: "#",
-        sec: "gx"
-      }
-    ]
-  }
 
   const start = () => {
     document.body.style.display = "block";

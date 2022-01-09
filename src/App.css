@@ -49,14 +49,11 @@ a {
 }
 
 .card[data-live="true"]::after {
-  content: "• Live";
+  content: "● Live";
   position: absolute;
-  width: 60px;
-  height: 40px;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: -4px;
   color: #fc3d46;
-  text-align: center;
   font-size: 0.8em;
 }
 
