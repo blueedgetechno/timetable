@@ -1,37 +1,180 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: none;
+  background: #16161d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.container {
+  display: flex;
+  flex-direction: column;
 
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row > .card{
+  min-width: 180px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 40px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.card[data-live="true"]::after {
+  content: "• Live";
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  right: 0;
+  top: 0;
+  color: #fc3d46;
+  text-align: center;
+  font-size: 0.8em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.sub {
+  color: #b3b7c3;
+}
+
+.time a {
+  color: #267eee;
+}
+
+.popupcont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1px);
+  place-items: center;
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  width: 720px;
+  padding: 60px 0;
+  background: #18181f;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup div:nth-child(1) {
+  font-weight: 900;
+  font-size: 2.4em;
+  color: #a5a5d4;
+}
+
+.popup div:nth-child(2) {
+  display: flex;
+  margin-top: 24px;
+}
+
+.popup button {
+  margin: 0 20px;
+  border: none;
+  padding: 12px 20px;
+  background: #4174f2;
+  color: #fefefe;
+  font-size: 1.2em;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px 2px rgba(0, 70, 255, 0.25);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  transform: scale(1.125);
+}
+
+.setcont {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+.setcont svg {
+  color: #666;
+  cursor: pointer;
+}
+
+a[href="#"] {
+  color: #444;
+  cursor: default;
+}
+
+.quotecont{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: calc(100% - 999px);
+  line-height: 24px;
+  opacity: 0;
+}
+
+.quote{
+  letter-spacing: 1px;
+  color: #4a7af0;
+  text-align: justify;
+}
+
+.quote::before{
+  content: "❝ ";
+}
+
+.quote::after{
+  content: " ❞";
+}
+
+.author{
+  letter-spacing: 2px;
+  font-size: 0.72em;
+  margin-top: 12px;
+  color: #716f91;
+}
+
+@media screen and (max-width: 1200px) {
+  .quotecont{
+    display: none;
   }
 }
