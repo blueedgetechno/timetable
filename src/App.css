@@ -57,6 +57,16 @@ a {
   font-size: 0.8em;
 }
 
+.card[data-upcoming="true"]::after {
+  content: "● Next";
+  position: absolute;
+  right: 10px;
+  top: -4px;
+  color: #3dfc4b;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
 .sub {
   color: #b3b7c3;
 }

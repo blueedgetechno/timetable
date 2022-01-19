@@ -31,6 +31,8 @@ function App() {
 
         if (currMin >= tb[0] && currMin <= tb[1]) {
           cards[i].dataset.live = true;
+        }else if (currMin < tb[0] && (tb[0] - currMin)<10) {
+          cards[i].dataset.upcoming = true;
         }
       }
     }
