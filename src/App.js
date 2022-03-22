@@ -10,7 +10,6 @@ function App() {
   const start = () => {
     document.body.style.display = "block";
     markLive();
-    fetchQuote();
   }
 
   const showPopup = () => setPop(!popup)
@@ -36,16 +35,6 @@ function App() {
         }
       }
     }
-  }
-
-  const fetchQuote = () => {
-    fetch("https://api.quotable.io/random").then(res => res.json()).then(res => {
-      document.querySelector(".quote").innerText = res.content;
-      document.querySelector(".author").innerText = "~ " + res.author;
-      document.querySelector(".quotecont").style.opacity = 1;
-    }).catch(err => {
-      console.log("Fetching err");
-    })
   }
 
   window.onload = start;
@@ -82,10 +71,6 @@ function App() {
           </div>
         )
       })}
-    </div>
-    <div className="quotecont">
-      <div className="quote"></div>
-      <div className="author"></div>
     </div>
     <div className="setcont" onClick={showPopup}>
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

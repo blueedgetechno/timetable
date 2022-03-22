@@ -24,6 +24,9 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  /* display: grid; */
+  /* grid-template-columns: auto auto auto auto auto auto auto auto auto; */
+  /* width: 96%; */
 }
 
 a {
@@ -144,40 +147,6 @@ a {
 a[href="#"] {
   color: #444;
   cursor: default;
-}
-
-.quotecont{
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 36px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  max-width: calc(100% - 999px);
-  line-height: 24px;
-  opacity: 0;
-}
-
-.quote{
-  letter-spacing: 1px;
-  color: #4a7af0;
-  text-align: justify;
-}
-
-.quote::before{
-  content: "❝ ";
-}
-
-.quote::after{
-  content: " ❞";
-}
-
-.author{
-  letter-spacing: 2px;
-  font-size: 0.72em;
-  margin-top: 12px;
-  color: #716f91;
 }
 
 @media screen and (max-width: 1200px) {
