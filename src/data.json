@@ -1,80 +1,59 @@
 {
   "Monday": [{
-      "name": "Info. security",
-      "time": "9:55 - 10:50",
-      "title": "Information security and Cryptography (CS 3204)"
-    },{
-      "name": "Graph Theory",
-      "time": "10:50 - 12:40",
-      "title": "Graph Theory (CS3224)"
-    },{
-      "name": "OS",
-      "time": "1:50 - 2:45",
-      "title": "Operating Systems (CS3201)"
-    },{
-      "name": "Digital Comm.",
-      "time": "2:45 - 4:35",
-      "title": "Digital Communications and Computer Network (CS3202)"
-    }
-  ],
+    "name": "Compiler design lab",
+    "time": "9:55 - 12:40",
+    "title": "Compiler design lab (Comp. Design Lab SB, MK, AKD)"
+  }, {
+    "name": "Machine learning",
+    "time": "1:50 - 3:40",
+    "title": "Machine Learning (SC) CSD 205"
+  }],
   "Tuesday": [{
-      "name": "Information security and Cryptography",
-      "time": "10:50 - 12:40",
-      "title": "Information security and Cryptography (CS 3204)"
-    },{
-      "name": "Computer Network Laboratory (Gx)",
-      "time": "1:50 - 4:35",
-      "title": "Computer Network Laboratory (CS3272) (Gx)",
-      "sec": "gx"
-    },{
-      "name": "Operating Systems Laboratory (Gy)",
-      "time": "1:50 - 4:35",
-      "title": "Operating Systems Laboratory (CS3271) (Gy)",
-      "sec": "gy"
-    }
-  ],
+    "name": "Economics",
+    "time": "9:55 - 10:50",
+    "title": "Economics"
+  }, {
+    "name": "Mobile and Pervasive Computing",
+    "time": "10:50 - 11:45",
+    "title": "Mobile and Pervasive Computing (CS 4123) SDB U702"
+  }, {
+    "name": "Compiler Design",
+    "time": "1:50 - 3:40",
+    "title": "Compiler Design (SB) CSD 205"
+  }],
   "Wednesday": [{
-      "name": "Software Engineering",
-      "time": "9:00 - 10:50",
-      "title": "Software Engineering (CS 3203)"
-    },{
-      "name": "Operating Systems",
-      "time": "10:50 - 12:40",
-      "title": "Operating Systems (CS3201)"
-    }
-  ],
+    "name": "Compiler Design",
+    "time": "9:00 - 9:55",
+    "title": "Compiler Design (SB) CSD 205"
+  }, {
+    "name": "Mobile Computing",
+    "time": "9:55 - 11:45",
+    "title": "Mobile and Pervasive Computing (CS 4123) SDB CSD 205"
+  },{
+    "name": "Management",
+    "time": "11:45 - 12:40",
+    "title": "Management"
+  },{
+    "name": "ML lab",
+    "time": "1:50 - 4:35",
+    "title": "Machine learning lab"
+  }],
   "Thursday": [{
-      "name": "Information security",
-      "time": "10:50 - 11:45",
-      "title": "Information security and Cryptography (CS 3204)"
-    },{
-      "name": "Graph Theory",
-      "time": "11:45 - 12:40",
-      "title": "Graph Theory (CS3224)"
-    },{
-      "name": "Software Engineering Laboratory",
-      "time": "1:50 - 4:35",
-      "title": "Software Engineering Laboratory (CS3273)"
-    }
-  ],
+    "name": "Group Discussion",
+    "time": "9:55 - 12:40",
+    "title": "Group Discussion (SC,SP) CS4192"
+  }, {
+    "name": "Machine Learning",
+    "time": "1:50 - 2:45",
+    "title": "Machine Learning (SC) CSD 205"
+  }, {
+    "name": "Finance",
+    "time": "2:45 - 4:30",
+    "title": "Finance"
+  }],
   "Friday": [{
-      "name": "Software Engineering",
-      "time": "9:55 - 10:50",
-      "title": "Software Engineering (CS3203)"
-    },{
-      "name": "Digital Comm.",
-      "time": "10:50 - 12:40",
-      "title": "Digital Communications and Computer Network (CS3202)"
-    },{
-      "name": "Computer Network Laboratory (Gy)",
-      "time": "1:50 - 4:35",
-      "title": "Computer Network Laboratory (CS3272) (Gy)",
-      "sec": "gy"
-    },{
-      "name": "Operating Systems Laboratory (Gx)",
-      "time": "1:50 - 4:35",
-      "title": "Operating Systems Laboratory (CS3271) (Gx)",
-      "sec": "gx"
-    }
-  ]
+    "name": "Project CS4173",
+    "time": "1:50 - 4:35",
+    "title": "Project CS4173"
+  }]
 }
