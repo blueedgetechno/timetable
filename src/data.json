@@ -9,10 +9,6 @@
     "title": "Machine Learning (SC) CSD 205"
   }],
   "Tuesday": [{
-    "name": "Economics",
-    "time": "9:55 - 10:50",
-    "title": "Economics"
-  }, {
     "name": "Mobile and Pervasive Computing",
     "time": "10:50 - 11:45",
     "title": "Mobile and Pervasive Computing (CS 4123) SDB U702"
@@ -20,6 +16,10 @@
     "name": "Compiler Design",
     "time": "1:50 - 3:40",
     "title": "Compiler Design (SB) CSD 205"
+  }, {
+    "name": "Economics",
+    "time": "3:40 - 4:30",
+    "title": "Economics"
   }],
   "Wednesday": [{
     "name": "Compiler Design",
