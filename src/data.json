@@ -1,59 +1,69 @@
 {
-  "Monday": [{
-    "name": "Compiler design lab",
-    "time": "9:55 - 12:40",
-    "title": "Compiler design lab (Comp. Design Lab SB, MK, AKD)"
-  }, {
-    "name": "Machine learning",
-    "time": "1:50 - 3:40",
-    "title": "Machine Learning (SC) CSD 205"
-  }],
-  "Tuesday": [{
-    "name": "Mobile and Pervasive Computing",
-    "time": "10:50 - 11:45",
-    "title": "Mobile and Pervasive Computing (CS 4123) SDB U702"
-  }, {
-    "name": "Compiler Design",
-    "time": "1:50 - 3:40",
-    "title": "Compiler Design (SB) CSD 205"
-  }, {
-    "name": "Economics",
-    "time": "3:40 - 4:30",
-    "title": "Economics"
-  }],
-  "Wednesday": [{
-    "name": "Compiler Design",
-    "time": "9:00 - 9:55",
-    "title": "Compiler Design (SB) CSD 205"
-  }, {
-    "name": "Mobile Computing",
-    "time": "9:55 - 11:45",
-    "title": "Mobile and Pervasive Computing (CS 4123) SDB CSD 205"
-  },{
-    "name": "Management",
-    "time": "11:45 - 12:40",
-    "title": "Management"
-  },{
-    "name": "ML lab",
-    "time": "1:50 - 4:35",
-    "title": "Machine learning lab"
-  }],
-  "Thursday": [{
-    "name": "Group Discussion",
-    "time": "9:55 - 12:40",
-    "title": "Group Discussion (SC,SP) CS4192"
-  }, {
-    "name": "Machine Learning",
-    "time": "1:50 - 2:45",
-    "title": "Machine Learning (SC) CSD 205"
-  }, {
-    "name": "Finance",
-    "time": "2:45 - 4:30",
-    "title": "Finance"
-  }],
-  "Friday": [{
-    "name": "Project CS4173",
-    "time": "1:50 - 4:35",
-    "title": "Project CS4173"
-  }]
+  "Monday": [
+    {
+      "name": "Open Elective I",
+      "time": "11:45 - 12:40",
+      "title": "Open Elective I"
+    },
+    {
+      "name": "Major Project",
+      "time": "1:50 - 4:35",
+      "title": "Major Project (CS4272)"
+    }
+  ],
+  "Tuesday": [
+    {
+      "name": "Major Project",
+      "time": "9:55 - 12:40",
+      "title": "Major Project (CS4272)"
+    },
+    {
+      "name": "Open Elective I",
+      "time": "1:50 - 3:40",
+      "title": "Open Elective I"
+    }
+  ],
+  "Wednesday": [
+    {
+      "name": "Major Project",
+      "time": "9:55 - 12:40",
+      "title": "Major Project (CS4272)"
+    },
+    {
+      "name": "Reconfigurable Computing",
+      "time": "1:50 - 3:40",
+      "title": "Reconfigurable Computing (CS4225), SJG"
+    }
+  ],
+  "Thursday": [
+    {
+      "name": "AI Lab (Gx)",
+      "time": "9:55 - 12:40",
+      "title": "AI Lab (CS4271), SP/AD",
+      "sec": "gx"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "time": "1:50 - 3:40",
+      "title": "Artificial Intelligence (CS4201), SP"
+    },
+    {
+      "name": "Reconfigurable Computing",
+      "time": "3:40 - 4:35",
+      "title": "Reconfigurable Computing (CS4225), SJG"
+    }
+  ],
+  "Friday": [
+    {
+      "name": "AI Lab (Gy)",
+      "time": "9:55 - 12:40",
+      "title": "AI Lab (CS4271), SP/AD",
+      "sec": "gy"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "time": "1:50 - 3:40",
+      "title": "Artificial Intelligence (CS4201), SP"
+    }
+  ]
 }
